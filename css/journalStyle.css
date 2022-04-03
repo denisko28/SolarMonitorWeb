@@ -1,0 +1,42 @@
+body {
+    font-size: 3em;
+}
+.float{
+    position: fixed;
+    width: 180px;
+    height: 180px;
+    bottom: 100px;
+    right: 50px;
+    background-color: #ed7c79;
+    color: #FFF;
+    border-radius: 100px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    border: none;
+}
+.fa {
+    font-size: 100px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+    background-color: #ffc4c4;
+    position: sticky;
+    top: 0; /* Don't forget this, required for the stickiness */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

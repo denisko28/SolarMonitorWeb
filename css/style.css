@@ -1,0 +1,117 @@
+body {
+    font-family: "Helvetica Neue";
+    color: white;
+    padding: 5%;
+    padding-top: 3%;
+    background-color: black;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    user-select: none;
+}
+h1 {
+    font-size: 35px;
+}
+#container {
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 650px;
+}
+#contParent {
+    overflow: scroll; /* Добавляем полосы прокрутки */
+    width: 100%;/* Высота блока */
+}
+#contParent::-webkit-scrollbar { 
+    display: none;
+}
+.bi {
+    font-size: 32px;
+}
+.btn {
+    color: white;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+    font-size: 1rem;
+}
+.myRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.dropdown {
+    width: 30%;
+}
+.btn-prim {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    border-radius: 50px;
+    padding: 0.4rem 1rem;
+    text-align: left;
+    width: 100%;
+    border: #303030 solid 1px;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+}
+.btn-prim:focus {
+    outline: 0;
+}
+.btn-prim .bi{
+    font-size: 0.8rem;
+}
+
+.dropdown-menu {
+    background-color: black;
+    color: white;
+    border: #303030 solid 1px;
+    border-radius: 20px;
+    min-width: 100%;
+    margin-top: 5px;
+}
+.dropdown-item {
+    color: white;
+    text-align: left;
+    width: 100%;
+    padding: 0.3rem 1rem;
+}
+.infoRound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    width: 48%;
+    height: 0;
+    padding-top: 28%;
+    padding-bottom: 25%;
+    margin-top: 15px;
+    border-radius: 35%;
+    border: #303030 solid 1px;
+}
+.infoRound .bi {
+    font-size: 45px;
+    color: #999999;
+}
+.infoRound a:not([href]):not([class]) {
+    margin: 5px 5%;
+    font-size: 0.9rem;
+}
+.infoRound h3 {
+    font-weight: 400;
+    color: #6699ff;
+    margin: 0;
+}
+.infoRound h6 {
+    color: #999999;
+}
+.disclaimer {
+    height: 30px!important;
+    background-color: black!important;
+}
