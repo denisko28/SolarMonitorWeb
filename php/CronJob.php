@@ -50,6 +50,7 @@
     if($dayNow == "Sunday")
     {
       $sql = "UPDATE Week SET Data = 0  WHERE 1";
+      sqlInsertUpdate($sql, $conn);
     }
 
     //End of the month
